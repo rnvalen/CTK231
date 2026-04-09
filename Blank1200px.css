@@ -1,0 +1,93 @@
+body {
+  background-color: #999999;
+  font-family: "richmond-display", sans-serif;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+h1 {
+  grid-column: span 12;
+  background-color: red;
+  color: white;
+  font-family: "Poller One", sans-serif;
+  padding: 24px;
+  text-transform: uppercase;
+}
+
+.mainimg {
+  grid-column: span 8;
+  width: 100%;
+}
+
+nav {
+  grid-column: span 4;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav li {
+  background-color: red;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+nav li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Poller One", sans-serif;
+}
+
+main {
+  grid-column: span 12;
+  display: flex;
+  column-gap: 24px;
+}
+
+section {
+}
+section h2 {
+  font-family: "Poller One", sans-serif;
+  text-transform: uppercase;
+  border-bottom: 3px solid black;
+}
+
+section img {
+  width: 100%;
+}
+
+footer {
+  grid-column: span 12;
+  background-color: red;
+  color: white;
+  font-family: "Poller One", sans-serif;
+  padding: 0 24px;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: bold;
+  display: flex;
+}
+
+footer a {
+  font-size: 48px;
+  color: lightgrey;
+}
+
+footer a:hover {
+  color: purple;
+}
